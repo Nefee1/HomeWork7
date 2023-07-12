@@ -71,8 +71,9 @@ public class Main {
 
         for (int month = 0; total < target; month++) {
             total += total * percent / 100;
-            if (month % 6 == 0) ;
-            System.out.printf("В Месяц %d накопления %.2f \n", month, total);
+            if (month % 6 == 0) {
+                System.out.printf("В Месяц %d накопления %.2f \n", month, total);
+            }
 
         }
     }
@@ -85,8 +86,9 @@ public class Main {
         int percent = 7;
         for (int month = 1; month < montsInYear; month++) {
             total += total * percent / 100;
-            if (month % 6 == 0) ;
-            System.out.printf("В Месяц %d накопления %.2f \n", month, total);
+            if (month % 6 == 0) {
+                System.out.printf("В Месяц %d накопления %.2f \n", month, total);
+            }
 
         }
     }
